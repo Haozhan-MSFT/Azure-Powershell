@@ -24,5 +24,5 @@ do{
         $url = $sign_in.'@odata.nextLink' #MS Graph paging handling
     }
 }while($url -ne $null) #MS Graph paging handling
+$output | Export-CSV -NoTypeInformation -Path "$path\last_sign_in_report $date.csv" -Append -Encoding UTF8
 Write-Host Finished!
-
