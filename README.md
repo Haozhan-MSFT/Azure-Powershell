@@ -1,6 +1,6 @@
 # Microsoft Entra ID related powershell
 
-Repo for sample PowerShell script related to Microsoft Entra (previously Azure AD).
+Repo for sample PowerShell script related to Microsoft Entra ID (previously Azure AD).
 
 ## Sample Scenarios
 | Sample Name | Description | Module required | Misc. |
